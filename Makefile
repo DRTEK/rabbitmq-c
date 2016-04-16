@@ -8,11 +8,10 @@ include $(TOPDIR)/rules.mk
 PKG_NAME:=rabbitmq-c
 PKG_VERSION:=0.8.0
 PKG_RELEASE:=0
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-#PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=https://github.com/alanxz/rabbitmq-c.git
-PKG_SOURCE_VERSION:=v0.8.0
+
+PKG_SOURCE:=v0.8.0.tar.gz
+PKG_SOURCE_URL:=https://github.com/alanxz/rabbitmq-c/archive/
+
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=COPYING
 
